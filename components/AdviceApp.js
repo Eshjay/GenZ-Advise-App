@@ -72,7 +72,7 @@ export default function AdviceApp() {
             <div className="flex space-x-2">
               <Input
                 type="text"
-                placeholder="Search for advice..."
+                placeholder="Search for advice. e.g friendship"
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 className="flex-grow"
